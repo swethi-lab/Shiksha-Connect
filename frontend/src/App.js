@@ -25,6 +25,7 @@ const CLASSES = (() => {
   }
   return out;
 })();
+//async function api
 
 async function api(path, opts = {}) {
   const res = await fetch(`${API}${path}`, {
